@@ -1,0 +1,60 @@
+.room-header {
+  text-align: center;
+  margin-bottom: 40rpx;
+}
+.room-title {
+  font-size: 44rpx;
+  font-weight: bold;
+  color: #D4AF37;
+}
+.room-code {
+  font-size: 28rpx;
+  color: #aaa;
+}
+.control-panel {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 60rpx;
+}
+.control-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ccc;
+  font-size: 24rpx;
+}
+.ctrl-icon {
+  width: 64rpx;
+  height: 64rpx;
+  margin-bottom: 10rpx;
+}
+.service-area {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40rpx;
+}
+.song-list {
+  background: #1E1E2F;
+  border-radius: 16rpx;
+  padding: 20rpx;
+}
+.list-title {
+  font-size: 30rpx;
+  color: #D4AF37;
+  margin-bottom: 20rpx;
+  display: block;
+}
+.song-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 16rpx 0;
+  border-bottom: 1rpx solid #333;
+  font-size: 28rpx;
+}
+.badge {
+  background: #FF4500;
+  color: #fff;
+  padding: 2rpx 10rpx;
+  border-radius: 10rpx;
+  font-size: 20rpx;
+}

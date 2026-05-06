@@ -1,0 +1,10 @@
+<view class="card" bindtap="onTap">
+  <image class="card-img" src="{{room.image || '/images/room-default.png'}}" mode="aspectFill" />
+  <view class="card-info">
+    <text class="name">{{room.name}}</text>
+    <text class="price">¥{{room.price}}/小时</text>
+    <view class="tags">
+      <text class="tag" wx:for="{{room.tags}}" wx:key="index">{{item}}</text>
+    </view>
+  </view>
+</view>

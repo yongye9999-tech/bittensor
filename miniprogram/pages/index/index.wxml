@@ -1,0 +1,21 @@
+<view class="container">
+  <swiper class="banner" indicator-dots autoplay interval="3000" circular>
+    <swiper-item>
+      <image src="/images/banner1.png" mode="aspectFill" class="banner-img" />
+    </swiper-item>
+    <swiper-item>
+      <image src="/images/banner2.png" mode="aspectFill" class="banner-img" />
+    </swiper-item>
+  </swiper>
+
+  <view class="section-title">包厢类型</view>
+  <view wx:if="{{rooms.length > 0}}">
+    <room-card 
+      wx:for="{{rooms}}" 
+      wx:key="_id" 
+      room="{{item}}" 
+      bind:select="onRoomSelect" 
+    />
+  </view>
+  <view wx:else class="empty">暂无包厢信息</view>
+</view>

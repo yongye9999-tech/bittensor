@@ -1,0 +1,11 @@
+<view class="container">
+  <view class="event-card" wx:for="{{events}}" wx:key="id">
+    <image src="{{item.image}}" class="event-img" mode="aspectFill" />
+    <view class="event-info">
+      <text class="event-title">{{item.title}}</text>
+      <text class="event-desc">{{item.desc}}</text>
+      <text class="event-time">活动时间：{{item.time}}</text>
+    </view>
+  </view>
+  <view wx:if="{{events.length === 0}}" class="empty">暂无活动</view>
+</view>

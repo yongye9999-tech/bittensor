@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "包厢控制",
+  "usingComponents": {
+    "service-bell": "/components/service-bell/service-bell"
+  }
+}

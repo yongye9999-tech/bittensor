@@ -1,0 +1,4 @@
+<view class="bell-container" bindtap="onCall">
+  <image class="bell-icon" src="/images/bell.png" mode="aspectFit" />
+  <text class="bell-text">{{called ? '已呼叫' : '呼叫服务'}}</text>
+</view>

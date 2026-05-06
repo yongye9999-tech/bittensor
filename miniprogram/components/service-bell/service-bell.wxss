@@ -1,0 +1,20 @@
+.bell-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 120rpx;
+  height: 120rpx;
+  background: rgba(255,215,0,0.15);
+  border-radius: 50%;
+  border: 2rpx solid #D4AF37;
+}
+.bell-icon {
+  width: 48rpx;
+  height: 48rpx;
+}
+.bell-text {
+  font-size: 20rpx;
+  color: #FFD700;
+  margin-top: 6rpx;
+}

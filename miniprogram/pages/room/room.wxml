@@ -1,0 +1,33 @@
+<view class="container">
+  <view class="room-header">
+    <text class="room-title">{{roomName}}</text>
+    <text class="room-code">包厢号：{{roomCode}}</text>
+  </view>
+  
+  <view class="control-panel">
+    <view class="control-item" bindtap="toggleLight">
+      <image src="/images/light.png" class="ctrl-icon" />
+      <text>灯光</text>
+    </view>
+    <view class="control-item" bindtap="adjustVolume">
+      <image src="/images/volume.png" class="ctrl-icon" />
+      <text>音量 {{volume}}%</text>
+    </view>
+    <view class="control-item" bindtap="toggleAircon">
+      <image src="/images/aircon.png" class="ctrl-icon" />
+      <text>空调 {{airconTemp}}℃</text>
+    </view>
+  </view>
+
+  <view class="service-area">
+    <service-bell roomId="{{roomId}}" />
+  </view>
+
+  <view class="song-list">
+    <text class="list-title">已点歌曲</text>
+    <view class="song-item" wx:for="{{songList}}" wx:key="index">
+      <text>{{item.name}} - {{item.artist}}</text>
+      <text class="badge" wx:if="{{item.isNew}}">新</text>
+    </view>
+  </view>
+</view>

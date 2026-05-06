@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "伯麟KTV",
+  "usingComponents": {
+    "room-card": "/components/room-card/room-card"
+  }
+}
