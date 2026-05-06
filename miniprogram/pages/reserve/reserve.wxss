@@ -1,0 +1,48 @@
+.room-info {
+  background: #1E1E2F;
+  border-radius: 16rpx;
+  padding: 30rpx;
+  margin-bottom: 30rpx;
+  text-align: center;
+}
+.room-name {
+  font-size: 36rpx;
+  font-weight: bold;
+  color: #D4AF37;
+}
+.room-price {
+  display: block;
+  color: #FFD700;
+  margin-top: 10rpx;
+}
+.form {
+  background: #1E1E2F;
+  border-radius: 16rpx;
+  padding: 30rpx;
+}
+.picker {
+  padding: 24rpx 0;
+  border-bottom: 1rpx solid #333;
+  color: #ccc;
+}
+.input-group {
+  display: flex;
+  align-items: center;
+  padding: 24rpx 0;
+  border-bottom: 1rpx solid #333;
+}
+.label {
+  width: 120rpx;
+  color: #ccc;
+}
+.input {
+  flex: 1;
+  color: #fff;
+}
+.submit-btn {
+  margin-top: 40rpx;
+  background: #D4AF37;
+  color: #1A1A2E;
+  font-weight: bold;
+  border-radius: 40rpx;
+}

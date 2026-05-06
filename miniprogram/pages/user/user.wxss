@@ -1,0 +1,47 @@
+.user-card {
+  display: flex;
+  align-items: center;
+  background: #1E1E2F;
+  border-radius: 16rpx;
+  padding: 40rpx;
+  margin-bottom: 40rpx;
+}
+.avatar {
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 50%;
+  border: 2rpx solid #D4AF37;
+}
+.user-detail {
+  margin-left: 30rpx;
+}
+.nickname {
+  font-size: 36rpx;
+  color: #fff;
+  display: block;
+  margin-bottom: 10rpx;
+}
+.login-btn {
+  background: none;
+  color: #D4AF37;
+  padding: 0;
+  font-size: 28rpx;
+  border: none;
+  text-align: left;
+}
+.menu {
+  background: #1E1E2F;
+  border-radius: 16rpx;
+}
+.menu-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 30rpx;
+  border-bottom: 1rpx solid #333;
+  color: #ccc;
+  font-size: 30rpx;
+}
+.arrow {
+  color: #888;
+  font-size: 36rpx;
+}
